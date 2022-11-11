@@ -18,6 +18,7 @@
   margin-bottom: 6rem;
   text-shadow: 4px 5px #f02806;
   word-break: break-word;
+  text-align: center;
 }
 
 .event-title{
@@ -112,6 +113,7 @@
   padding: 2rem 1rem;
   border-radius: 12px;
   box-shadow: #f02806 0px 3px 8px;
+  height: 30rem;
 }
 
 .speaker-card>img{
@@ -134,6 +136,7 @@
 .speaker-designation{
     font-size: 1.5rem;
     color: #000;
+    text-align: center;
 }
 
 /* past event */
@@ -153,14 +156,15 @@
     letter-spacing: 1.3px;
 }
 
-.past-event-date{
+.past-event-date, .event-date{
     font-size: 1.3rem;
     margin: 2rem 0px 0.5rem;
 }
 
-.past-event-location{
+.past-event-location, .event-location{
     font-size: 1.3rem;
     margin: 2rem 0px;
+    line-height: 1.5;
 }
 
 /* past event ends */
@@ -218,3 +222,52 @@
     color: #aaa;
 }
 /* what is section ends */
+
+
+/* organizer section */
+.organizer-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C30000;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.organizer-img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.organizer-name{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.organizer-role{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+/* organizer section ends */
+
+.about-subheading{
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem 0px 0.5rem;
+}
+
+.sub-description{
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #aaa;
+  word-break: break-word;
+}

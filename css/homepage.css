@@ -1,5 +1,12 @@
 /* homepage hero section */
 
+
+.bg-animated{
+  background-image: url(../images/animated.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .hero-section{
   margin: 5rem 0px;
 }
